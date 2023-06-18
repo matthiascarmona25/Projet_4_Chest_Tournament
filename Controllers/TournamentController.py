@@ -1,9 +1,9 @@
-from Model.Tournament import Tournament
-from View.TournamentView import TournamentView
+from Models.Tournament import Tournament
+from Views.TournamentView import TournamentView
 
-class TournamentController():
+
+class TournamentController:
     def createTournament(self):
-
         create_view = TournamentView()
         create_view = create_view.getInfoTournament()
         tournament_01 = Tournament(

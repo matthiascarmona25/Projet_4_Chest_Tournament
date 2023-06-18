@@ -1,4 +1,4 @@
-from Model.Tournament import Tournament
+from Models.Tournament import Tournament
 
 
 class Tour(Tournament):

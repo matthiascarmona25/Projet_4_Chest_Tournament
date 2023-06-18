@@ -10,7 +10,7 @@ class TournamentView:
         description = input('Description complémentaire : ')
         numbers_turn = input('En combien de tour se déroulera le tournoi : ')
 
-        dict_response = {
+        info_tournament = {
             'name': name,
             'place': place,
             'start_date': start_date,
@@ -19,4 +19,4 @@ class TournamentView:
             'numbers_turn': numbers_turn
         }
 
-        return dict_response
+        return info_tournament
