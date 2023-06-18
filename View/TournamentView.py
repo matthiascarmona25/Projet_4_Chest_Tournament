@@ -2,7 +2,7 @@
 
 class TournamentView:
 
-    def createView(self):
+    def getInfoTournament(self):
         name = input('Veuillez saisir le nom du tournoi : ')
         place = input('Ou se déroule le tournoi : ')
         start_date = input('Quand le tournoi commence-t-il : ')
@@ -12,7 +12,7 @@ class TournamentView:
 
         dict_response = {
             'name': name,
-            'place' : place,
+            'place': place,
             'start_date': start_date,
             'end_date': end_date,
             'description': description,
